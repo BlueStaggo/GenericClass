@@ -1,0 +1,4 @@
+displayName = Generic Class
+author = BlueStag
+version = 0.1
+loadAfter = ClickerClass

@@ -35,8 +35,8 @@ namespace GenericClass.Content.Items
             .AddIngredient(ItemID.FragmentSolar)
             .AddIngredient(ItemID.FragmentStardust)
             .AddIngredient(
-                ClickerCompat.ClickerClass is null || !GenericClass.Config.VanillaFusionAlloy ? ItemID.None : ModContent.Find<ModItem>("ClickerClass/MiceFragment").Type,
-                ClickerCompat.ClickerClass is null || !GenericClass.Config.VanillaFusionAlloy ? 0           : 1
+                ClickerCompat.ClickerClass is null || !GenericClass.Config.ClickerClassFusionAlloy ? ItemID.None : ModContent.Find<ModItem>("ClickerClass/MiceFragment").Type,
+                ClickerCompat.ClickerClass is null || !GenericClass.Config.ClickerClassFusionAlloy ? 0           : 1
             )
             .AddTile(TileID.LunarCraftingStation)
             .Register();

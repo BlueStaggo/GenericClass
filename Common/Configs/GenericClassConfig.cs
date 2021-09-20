@@ -9,10 +9,10 @@ namespace GenericClass.Common.Configs
 
         [Header("Clicker Class")]
 
-        [Label("Vanilla Fusion Alloy Recipe")]
+        [Label("Clicker Class Fusion Alloy Recipe")]
         [Tooltip("Add Mice Fragment as an ingredient for Fusion Alloy. Requires a reload.")]
         [DefaultValue(true)]
         [ReloadRequired]
-        public bool VanillaFusionAlloy { get; set; }
+        public bool ClickerClassFusionAlloy { get; set; }
     }
 }

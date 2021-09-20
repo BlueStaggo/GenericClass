@@ -9,9 +9,17 @@ And plenty more to come!
 
 CHANGELOG:
 
+== 0.1.1 ==
+- Changed icon
+- Fixed shading on Night's Leggings
+
 == 0.1 ==
 - Initial release
 
 CREDITS:
 
 - SamsonAllen13: Created the Clicker Class mod including cross-mod content support and made glowmasks easier.
+
+GITHUB:
+
+https://github.com/BlueStaggo/GenericClass

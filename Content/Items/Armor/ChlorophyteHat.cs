@@ -67,7 +67,7 @@ namespace GenericClass.Content.Items.Armor
         }
 
         public override void AddRecipes() => CreateRecipe()
-			.AddIngredient(ItemID.AdamantiteBar, 12)
+			.AddIngredient(ItemID.ChlorophyteBar, 12)
 			.AddTile(TileID.MythrilAnvil)
 			.Register();
 	}

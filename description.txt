@@ -9,6 +9,9 @@ And plenty more to come!
 
 CHANGELOG:
 
+== 0.1.2 ==
+- Chlorophyte Hat now requires Chlorophyte bars
+
 == 0.1.1 ==
 - Changed icon
 - Fixed shading on Night's Leggings

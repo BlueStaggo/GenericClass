@@ -9,6 +9,9 @@ And plenty more to come!
 
 CHANGELOG:
 
+== 0.1.2.1 ==
+- Weapons now deal damage
+
 == 0.1.2 ==
 - Chlorophyte Hat now requires Chlorophyte bars
 

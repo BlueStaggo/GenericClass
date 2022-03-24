@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ib4z67oJGTSf9m7FhIMyQNBpVvJZdmGI6ubrQqM3YY1aKjOQtPNPJBE9ReTgBytn/eFxyXIZC7b4QUODggsJWg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\oweng\\OneDrive\\Documents\\My Games\\Terraria\\ModLoader\\Beta\\Mod Sources\\GenericClass\\GenericClass.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\oweng\\.nuget\\packages\\tmodloader.codeassist\\0.1.3\\tmodloader.codeassist.0.1.3.nupkg.sha512"
+  ],
+  "logs": []
+}

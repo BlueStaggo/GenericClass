@@ -140,7 +140,7 @@ namespace GenericClass.Content.Items.Armor
         public override void UpdateEquip(Player player)
         {
             player.moveSpeed += 0.15f;
-            player.meleeSpeed += 0.15f;
+            player.GetAttackSpeed(DamageClass.Melee) += 0.15f;
             player.GetDamage(DamageClass.Generic) += 0.05f;
             ClickerCompat.SetClickerRadiusAdd(player, 0.3f);
         }

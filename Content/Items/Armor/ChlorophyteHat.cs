@@ -14,8 +14,8 @@ namespace GenericClass.Content.Items.Armor
 			Tooltip.SetDefault(
 				"12% increased damage\n" +
                 "5% increased critical strike chance"
-			);
-			this.SetRequiredSacrifices(1);
+            );
+            this.SetRequiredSacrifices(1);
 		}
 
 		public override void SetDefaults()

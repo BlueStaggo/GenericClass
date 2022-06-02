@@ -43,7 +43,7 @@ namespace GenericClass.Content.Items.Armor
 				"10% increased melee and movement speed\n" +
 				"20% chance to not consume ammo";
 			player.manaCost -= 0.10f;
-			player.meleeSpeed += 0.10f;
+			player.GetAttackSpeed(DamageClass.Melee) += 0.10f;
 			player.moveSpeed += 0.10f;
 			player.ammoCost80 = true;
 		}

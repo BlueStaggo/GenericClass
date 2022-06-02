@@ -46,7 +46,8 @@ namespace GenericClass.Common.Players
                     );
                     dust.noGravity = true;
                 }
-                SoundEngine.PlaySound(SoundID.Item, target.position, 14);
+                // SoundEngine.PlaySound(SoundID.Item, target.position, 14);
+                SoundEngine.PlaySound(SoundID.Item14);
                 target.StrikeNPC(150, 10, hitDirection);
 
                 Projectile.NewProjectile(null, target.position, Vector2.Zero, ModContent.ProjectileType<FusionHeart>(), 0, 0, Main.myPlayer);

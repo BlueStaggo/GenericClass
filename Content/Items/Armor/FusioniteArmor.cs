@@ -157,7 +157,7 @@ namespace GenericClass.Content.Items.Armor
             player.GetDamage(DamageClass.Generic) += 0.08f;
             player.GetCritChance(DamageClass.Generic) += 10;
             player.moveSpeed += 0.20f;
-            player.meleeSpeed += 0.20f;
+            player.GetAttackSpeed(DamageClass.Melee) += 0.20f;
             ClickerCompat.SetClickerRadiusAdd(player, 0.8f);
         }
 

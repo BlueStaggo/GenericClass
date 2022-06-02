@@ -136,7 +136,7 @@ namespace GenericClass.Content.Items.Armor
         public override void UpdateEquip(Player player)
         {
             player.moveSpeed += 0.12f;
-            player.meleeSpeed += 0.12f;
+            player.GetAttackSpeed(DamageClass.Melee) += 0.12f;
             player.maxMinions += 2;
         }
 

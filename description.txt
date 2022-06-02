@@ -9,6 +9,9 @@ And plenty more to come!
 
 CHANGELOG:
 
+== 0.1.2.2 ==
+- Armor doesn't crash the game
+
 == 0.1.2.1 ==
 - Weapons now deal damage
 

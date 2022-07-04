@@ -36,7 +36,7 @@ namespace GenericClass.Common.Players
                     DustID.Torch,
                     item.velocity.X * 0.2f + (float)(Player.direction * 3),
                     item.velocity.Y * 0.2f,
-                    100, default(Color), 2.5f
+                    100, default, 2.5f
                 );
                 Main.dust[dust].noGravity = true;
                 Main.dust[dust].velocity.X *= 2f;

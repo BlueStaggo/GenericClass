@@ -53,9 +53,9 @@ namespace GenericClass.Content.Projectiles
 
             Texture2D texture = TextureAssets.Projectile[Type].Value;
             Color color = Projectile.GetAlpha(GenericClass.LightFusionColors[Projectile.frame]);
-            Vector2 origin = new Vector2(texture.Width * 0.5f, Projectile.height * 0.5f);
+            Vector2 origin = new(texture.Width * 0.5f, Projectile.height * 0.5f);
             Vector2 position = Projectile.position - Main.screenPosition + origin + new Vector2(0f, Projectile.gfxOffY);
-            Rectangle frame = new Rectangle(0, texture.Height / 4 * Projectile.frame, texture.Width - 2, texture.Height / 4 - 2);
+            Rectangle frame = new(0, texture.Height / 4 * Projectile.frame, texture.Width - 2, texture.Height / 4 - 2);
 
             Main.EntitySpriteDraw(texture, position, frame, color, Projectile.rotation, origin, Projectile.scale, SpriteEffects.None, 0);
             Lighting.AddLight(Projectile.position, color.R / 255, color.G / 255, color.B / 255);

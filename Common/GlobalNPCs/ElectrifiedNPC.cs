@@ -21,7 +21,7 @@ namespace GenericClass.Common.GlobalNPCs
                     DustID.Electric,
                     npc.velocity.X * 0.2f + (float)(npc.direction * 3),
                     npc.velocity.Y * 0.2f,
-                    100, default(Color), 1f
+                    100, default, 1f
                 );
                 Main.dust[dust].noGravity = true;
             }

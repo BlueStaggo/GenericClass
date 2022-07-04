@@ -20,7 +20,7 @@ namespace GenericClass.Common.GlobalItems
                     DustID.Torch,
                     projectile.velocity.X * 0.2f + (float)(projectile.direction * 3),
                     projectile.velocity.Y * 0.2f,
-                    100, default(Color), 2.5f
+                    100, default, 2.5f
                 );
                 Main.dust[dust].noGravity = true;
                 Main.dust[dust].velocity.X *= 2f;

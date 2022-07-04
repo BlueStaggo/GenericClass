@@ -20,7 +20,7 @@ namespace GenericClass.Common.GlobalItems
                     DustID.Electric,
                     projectile.velocity.X * 0.2f + (float)(projectile.direction * 3),
                     projectile.velocity.Y * 0.2f,
-                    100, default(Color), 1f
+                    100, default, 1f
                 );
                 Main.dust[dust].noGravity = true;
             }

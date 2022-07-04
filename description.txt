@@ -5,9 +5,11 @@ FEATURING:
 - 3 armor sets
 - 1 accessory
 - Clicker Class support
-And plenty more to come!
 
 CHANGELOG:
+
+== 0.1.2.3 ==
+- Fixed crash
 
 == 0.1.2.2 ==
 - Armor doesn't crash the game

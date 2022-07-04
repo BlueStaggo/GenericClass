@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oweng\\OneDrive\\Documents\\My Games\\Terraria\\ModLoader\\Beta\\Mod Sources\\GenericClass\\GenericClass.csproj": {}
+    "c:\\Users\\oweng\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\GenericClass\\GenericClass.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oweng\\OneDrive\\Documents\\My Games\\Terraria\\ModLoader\\Beta\\Mod Sources\\GenericClass\\GenericClass.csproj": {
+    "c:\\Users\\oweng\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\GenericClass\\GenericClass.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oweng\\OneDrive\\Documents\\My Games\\Terraria\\ModLoader\\Beta\\Mod Sources\\GenericClass\\GenericClass.csproj",
+        "projectUniqueName": "c:\\Users\\oweng\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\GenericClass\\GenericClass.csproj",
         "projectName": "GenericClass",
-        "projectPath": "C:\\Users\\oweng\\OneDrive\\Documents\\My Games\\Terraria\\ModLoader\\Beta\\Mod Sources\\GenericClass\\GenericClass.csproj",
+        "projectPath": "c:\\Users\\oweng\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\GenericClass\\GenericClass.csproj",
         "packagesPath": "C:\\Users\\oweng\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oweng\\OneDrive\\Documents\\My Games\\Terraria\\ModLoader\\Beta\\Mod Sources\\GenericClass\\obj\\",
+        "outputPath": "c:\\Users\\oweng\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\GenericClass\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\oweng\\AppData\\Roaming\\NuGet\\NuGet.Config",
